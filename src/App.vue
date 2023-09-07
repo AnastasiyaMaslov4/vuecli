@@ -4,6 +4,7 @@
   <BlogComponent/>
   <BlogDetails/>
   <ProjectsComponent/>
+  <ProjectDetails/>
   <FooterComponent/>
 </template>
 
@@ -14,6 +15,7 @@ import BlogComponent from './components/BlogComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import BlogDetails from './components/BlogDetails.vue';
 import ProjectsComponent from './components/ProjectsComponent.vue';
+import ProjectDetails from './components/ProjectDetails.vue';
 
 export default {
   name: 'App',
@@ -24,6 +26,7 @@ export default {
     BlogDetails,
     FooterComponent,
     ProjectsComponent,
+    ProjectDetails,
   }
 }
 </script>

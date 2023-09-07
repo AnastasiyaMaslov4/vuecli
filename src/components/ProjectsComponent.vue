@@ -418,11 +418,12 @@
         &__list {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            column-gap: 20px;
         }
         &__card {
             position: relative;
             margin-bottom: 35px;
-            max-width: 590px;
+            width: 590;
             height: fit-content;
             &__svg {
                 position: absolute;
