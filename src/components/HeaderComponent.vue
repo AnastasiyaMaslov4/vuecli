@@ -1,11 +1,11 @@
 <template>
     <header class="header center">
-        <a href="index.html" class="header__logo"><img :src="logo" alt="Logo pic"></a>
+        <router-link to="/" class="header__logo"><img :src="logo" alt="Logo pic"></router-link>
         <nav class="header__navigation">
             <ul class="header__navigation__list">
-                <li class="header__navigation__li"><a href="index.html">Home</a></li>
-                <li class="header__navigation__li"><a href="#project">Project</a></li>
-                <li class="header__navigation__li"><a href="blog.html">Blog</a></li>
+                <li class="header__navigation__li"><router-link to="/">Home</router-link></li>
+                <li class="header__navigation__li"><router-link to="/projects">Project</router-link></li>
+                <li class="header__navigation__li"><router-link to="/blog">Blog</router-link></li>
             </ul>
         </nav>
     </header>
